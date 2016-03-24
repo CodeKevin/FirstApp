@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="211" id="KGk-i7-Jjw" customClass="KVNewCell">
+            <rect key="frame" x="0.0" y="0.0" width="356" height="211"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="356" height="210"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uby-FY-TYJ">
+                        <rect key="frame" x="13" y="13" width="120" height="189"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="S75-NB-m3L"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="白脸成神" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHD-rq-Xo0">
+                        <rect key="frame" x="143" y="28" width="210" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pJ-10-xoy">
+                        <rect key="frame" x="143" y="153" width="200" height="29"/>
+                        <string key="text">你找我陪你无聊
+陪你看你最爱的频道
+总要让我陪着你睡不着
+陪着你吵闹陪着你感冒
+我知道你最爱的口味
+知道你最爱用的香水
+最爱说的词</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="更新至12话" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58Z-9a-Vbh">
+                        <rect key="frame" x="143" y="107" width="200" height="26"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作者：说梦话工作室" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGY-0y-UZn">
+                        <rect key="frame" x="143" y="69" width="200" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="9pJ-10-xoy" firstAttribute="leading" secondItem="Uby-FY-TYJ" secondAttribute="trailing" constant="10" id="3lz-Fz-PSY"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cGY-0y-UZn" secondAttribute="trailing" constant="5" id="7qL-Ve-wno"/>
+                    <constraint firstItem="Uby-FY-TYJ" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="F9b-KA-zJx"/>
+                    <constraint firstItem="Uby-FY-TYJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="J6h-8f-hgv"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="9pJ-10-xoy" secondAttribute="bottom" constant="5" id="LrB-Sk-wzZ"/>
+                    <constraint firstItem="58Z-9a-Vbh" firstAttribute="top" secondItem="cGY-0y-UZn" secondAttribute="bottom" constant="5" id="Mqm-g5-zh5"/>
+                    <constraint firstItem="Uby-FY-TYJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="PmU-Ns-DOa"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="58Z-9a-Vbh" secondAttribute="trailing" constant="5" id="Tp5-at-h89"/>
+                    <constraint firstItem="cGY-0y-UZn" firstAttribute="top" secondItem="sHD-rq-Xo0" secondAttribute="bottom" constant="20" id="VEN-JL-YEE"/>
+                    <constraint firstItem="sHD-rq-Xo0" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="5" id="ZKh-zD-Vkb"/>
+                    <constraint firstItem="cGY-0y-UZn" firstAttribute="leading" secondItem="Uby-FY-TYJ" secondAttribute="trailing" constant="10" id="aC2-7d-46z"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="9pJ-10-xoy" secondAttribute="bottom" constant="20" id="gC9-o8-0tN"/>
+                    <constraint firstItem="58Z-9a-Vbh" firstAttribute="top" secondItem="cGY-0y-UZn" secondAttribute="bottom" constant="20" id="mjI-mq-ucb"/>
+                    <constraint firstItem="sHD-rq-Xo0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="20" id="oFZ-yx-fje"/>
+                    <constraint firstItem="9pJ-10-xoy" firstAttribute="top" secondItem="58Z-9a-Vbh" secondAttribute="bottom" constant="20" id="pyG-Zn-1pt"/>
+                    <constraint firstItem="58Z-9a-Vbh" firstAttribute="leading" secondItem="Uby-FY-TYJ" secondAttribute="trailing" constant="10" id="sCG-Bj-FeC"/>
+                    <constraint firstItem="sHD-rq-Xo0" firstAttribute="leading" secondItem="Uby-FY-TYJ" secondAttribute="trailing" constant="10" id="u3K-eB-Ip0"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="9pJ-10-xoy" secondAttribute="trailing" constant="5" id="wNZ-w2-BfU"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="Mqm-g5-zh5"/>
+                        <exclude reference="LrB-Sk-wzZ"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="KVDesLabel" destination="9pJ-10-xoy" id="5kB-ZZ-lWK"/>
+                <outlet property="KVNameLabel" destination="sHD-rq-Xo0" id="XQG-xa-UD2"/>
+                <outlet property="KVNewImage" destination="Uby-FY-TYJ" id="UhC-oo-26e"/>
+                <outlet property="KVUpdataLabel" destination="58Z-9a-Vbh" id="xUM-R5-H6M"/>
+            </connections>
+            <point key="canvasLocation" x="160" y="464.5"/>
+        </tableViewCell>
+    </objects>
+</document>
